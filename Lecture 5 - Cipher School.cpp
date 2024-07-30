@@ -1,13 +1,21 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-int main() {
-    int a,b,c,d;
-    cout<<"Input four integers a,b,c and d: "<<endl;
-    cin>>a>>b>>c>>d;
-    // cout<<(a>b && c>d);
-    
-    cout<<(a>b || c>d);
-    return 0;
-    // C++ interprets true as 1
-    // C++ interprets false as 0
-}
+int main(){
+	int a;
+	int b;
+	int c;
+	int d;
+	
+	cin>>a;
+	cin>>b;
+	cin>>c;
+	cin>>d;
+	
+	//conditional statement of a,b,c,d using and operator
+	//in boolean statement c++ interprets false as 0
+	
+	cout<<(a>b && c>d)<<endl;
+	//in c++ interprets true as 1
+	cout<<(a>b || c>d);
+  return 0;
+	}
