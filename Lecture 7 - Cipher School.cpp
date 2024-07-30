@@ -1,19 +1,11 @@
 #include<iostream>
 using namespace std;
 int main(){
-    // int a,b,c,d,e;
-    // cout<<"Enter five integers a,b,c,d and e: ";
-    // cin>>a>>b>>c>>d>>e;
-    // cout<<"Five integers are: "<<a<<b<<c<<d<<e;
-    
-    
-    int a[100];
-    for(int i=0;i<100;i++){
-        cin>>a[i];
-    }
-    for(int i = 99; i >= 0; i--) {
-        cout << a[i] << " ";
-    }
-    return 0;
-
-}
+	int a,b,c,d,e;
+	cout<<"Give 5 integers as input"<<endl;
+	cin>>a>>b>>c>>d>>e;
+	cout<<"The integers in reverse order";
+	int arr[4];
+	cin>>arr[a]>>arr[b]>>arr[c]>>arr[d]>>arr[e];
+	cout<<arr[a];
+	}
